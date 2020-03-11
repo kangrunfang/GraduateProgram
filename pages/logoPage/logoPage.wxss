@@ -1,0 +1,39 @@
+/**index.wxss**/
+page{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.container{
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.top{
+  position:absolute;
+}
+.begin{
+  height:20px;
+  width:50px;
+  position:absolute;
+  top:-50px;
+  right:-60px;
+}
+.btn{
+  font-size: 10px;
+  height:20px;
+  width:50px;
+}
+.pic{
+  height:180px;
+  width:170px;
+  position:relative;
+  top:20px;
+}
+.text{
+  position:relative;
+  top:220px;
+  font-family: STXinwei;
+  font-size: 28px;
+  color:#A9A9A9;
+}

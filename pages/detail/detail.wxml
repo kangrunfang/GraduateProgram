@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class="backPic">
+    <image class='pic' src='/images/detailBack.png'></image>
+  </view>
+  <view>
+    <view class="excess">
+      <text>结余</text>
+      <view class="exNum">0.00</view>
+    </view>
+    <view class="in">
+      <text class="inText">收入</text>
+      <view class="inNum">0.00</view>
+    </view>
+    <view class="out">
+      <text class="outText">支出</text>
+      <view class="outNum">0.00</view>
+    </view>
+  </view>
+  <view class="list">
+    <image class='none' src='/images/none.png'></image>
+    <text class="noneText">暂无账目记录，快去添加吧</text>
+  </view>
+</view>

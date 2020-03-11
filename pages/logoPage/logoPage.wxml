@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top">
+    <view class='begin'>
+      <button class='btn' bindtap='goIndex'>跳过</button>
+    </view>
+    <image class='pic' src='/images/logo2.png'></image>
+  </view>
+  <view class="text">悦生活，勤记账</view>
+</view>

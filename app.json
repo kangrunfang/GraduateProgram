@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/logoPage/logoPage",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/note/note",
+    "pages/share/share",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA54F",
+    "navigationBarTitleText": "收支日记",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor": "#FFA54F",
+    "list": [
+      {
+        "pagePath": "pages/logoPage/logoPage",
+        "text": "明细",
+        "iconPath": "images/detail.png",
+        "selectedIconPath": "images/detailSelected.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "记账",
+        "iconPath": "images/note.png",
+        "selectedIconPath": "images/noteSelected.png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "发现",
+        "iconPath": "images/share.png",
+        "selectedIconPath": "images/shareSelected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mineSelected.png"
+      }
+    ]
+  }
+}
