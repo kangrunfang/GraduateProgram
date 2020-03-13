@@ -1,4 +1,4 @@
-// pages/community/community.js
+// pages/login/login.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  goIndex: function () {
-    wx.navigateTo({
-      url: '/pages/send/send',
-    })
   }
 })

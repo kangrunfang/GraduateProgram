@@ -1,4 +1,4 @@
-// pages/community/community.js
+// pages/send/send.js
 Page({
 
   /**
@@ -64,9 +64,12 @@ Page({
 
   },
 
-  goIndex: function () {
-    wx.navigateTo({
-      url: '/pages/send/send',
+  /*调用相机，选择图片功能*/
+  click:function(){
+    wx.chooseImage({
+      success: function (res) {
+      },
     })
   }
+
 })

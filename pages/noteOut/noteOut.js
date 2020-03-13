@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  goIndex: function () {
+    wx.navigateTo({
+      url: '/pages/noteIn/noteIn',
+    })
   }
 })

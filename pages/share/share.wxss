@@ -1,1 +1,255 @@
 /* pages/community/community.wxss */
+page{
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+.container{
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.backPic{
+  width:100%;
+  height:120px;
+}
+.pic{
+  width:320px;
+  height:120px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+}
+.first{
+  width:100%;
+  height:500px;
+  /*background-color: pink;*/
+  position:relative;
+  top:40px;
+}
+.first1{
+  width:100%;
+  height:30px;
+  /*background-color: yellow;*/
+}
+.head{
+  height:30px;
+  width:30px;
+  position:relative;
+  left:20px;
+}
+.headPic{
+  height:30px;
+  width:30px;
+  border-radius: 2em;
+}
+.nick{
+  height:30px;
+  width:100px;
+  position:absolute;
+  left:70px;
+  top:0px;
+  text-align: left;
+  line-height: 30px;
+}
+.care{
+  height:30px;
+  width:60px;
+  position:absolute;
+  right:20px;
+  top:0px;
+}
+.btn{
+  font-size: 10px;
+  height:25px;
+  width:50px;
+  position:relative;
+  top:2px;
+}
+.first2{
+  width:77%;
+  height:100px;
+  float:right;
+  position:relative;
+  right:15px;
+  /*background-color: yellowgreen;*/
+  text-align: left;
+}
+.message{
+  position:relative;
+  top:-10px;
+  color: #A9A9A9;
+}
+.first3{
+  width:40%;
+  height:100px;
+  position:relative;
+  left:65px;
+  top:100px;
+  /*background-color: orange;*/
+}
+.messagePic1{
+  width:120px;
+  height:100px;
+  position:relative;
+  top:-100px;
+  left:-5px;
+}
+
+
+
+
+.second{
+  width:100%;
+  height:500px;
+  /*background-color: blueviolet;*/
+  position:relative;
+  top:170px;
+}
+.second1{
+  width:100%;
+  height:30px;
+  /*background-color: yellow;*/
+}
+.head{
+  height:30px;
+  width:30px;
+  position:relative;
+  left:20px;
+}
+.headPic{
+  height:30px;
+  width:30px;
+  border-radius: 2em;
+}
+.nick{
+  height:30px;
+  width:100px;
+  position:absolute;
+  left:70px;
+  top:0px;
+  text-align: left;
+  line-height: 30px;
+}
+.care{
+  height:30px;
+  width:60px;
+  position:absolute;
+  right:20px;
+  top:0px;
+}
+.btn{
+  font-size: 10px;
+  height:25px;
+  width:50px;
+  position:relative;
+  top:2px;
+}
+.second2{
+  width:77%;
+  height:100px;
+  float:right;
+  position:relative;
+  right:15px;
+  /*background-color: yellowgreen;*/
+  text-align: left;
+}
+
+.second3{
+  width:40%;
+  height:100px;
+  position:relative;
+  left:65px;
+  top:100px;
+  /*background-color: orange;*/
+}
+.messagePic2{
+  width:140px;
+  height:100px;
+  position:relative;
+  top:-100px;
+  left:-5px;
+}
+
+.third{
+  width:100%;
+  height:500px;
+  /*background-color: rgb(226, 70, 43);*/
+  position:relative;
+  top:300px;
+}
+.third1{
+  width:100%;
+  height:30px;
+  /*background-color: yellow;*/
+}
+.head{
+  height:30px;
+  width:30px;
+  position:relative;
+  left:20px;
+}
+.headPic{
+  height:30px;
+  width:30px;
+  border-radius: 2em;
+}
+.nick{
+  height:30px;
+  width:100px;
+  position:absolute;
+  left:70px;
+  top:0px;
+  text-align: left;
+  line-height: 30px;
+}
+.care{
+  height:30px;
+  width:60px;
+  position:absolute;
+  right:20px;
+  top:0px;
+}
+.btn{
+  font-size: 10px;
+  height:25px;
+  width:50px;
+  position:relative;
+  top:2px;
+}
+.third2{
+  width:77%;
+  height:100px;
+  float:right;
+  position:relative;
+  right:15px;
+  /*background-color: yellowgreen;*/
+  text-align: left;
+}
+
+.third3{
+  width:40%;
+  height:100px;
+  position:relative;
+  left:65px;
+  top:100px;
+  /*background-color: orange;*/
+}
+.messagePic3{
+  width:100px;
+  height:100px;
+  position:relative;
+  top:-100px;
+  left:-15px;
+}
+.send{
+  height:30px;
+  width:50px;
+  position:absolute;
+  right:10px;
+  top:10px;
+  background-color: #FFA54F;
+  line-height:25px;
+  border-radius: 1.5em;
+}

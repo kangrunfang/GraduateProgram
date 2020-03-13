@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="top">
+    <text class="title">发帖</text>
+    <text class="send">发表</text>
+  </view>
+  <view class="center">
+      <textarea placeholder="请输入帖子内容~" focus="{{focus}}" class="input"/>
+      <view class="addPhoto" bindtap='click'>
+        <text>+</text>
+      </view>
+  </view>
+</view>

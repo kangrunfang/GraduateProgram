@@ -3,9 +3,13 @@
     "pages/logoPage/logoPage",
     "pages/logs/logs",
     "pages/detail/detail",
-    "pages/note/note",
+    "pages/noteOut/noteOut",
     "pages/share/share",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/cal/cal",
+    "pages/noteIn/noteIn",
+    "pages/send/send",
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,14 +28,14 @@
         "selectedIconPath": "images/detailSelected.png"
       },
       {
-        "pagePath": "pages/note/note",
+        "pagePath": "pages/noteOut/noteOut",
         "text": "记账",
         "iconPath": "images/note.png",
         "selectedIconPath": "images/noteSelected.png"
       },
       {
         "pagePath": "pages/share/share",
-        "text": "发现",
+        "text": "社区",
         "iconPath": "images/share.png",
         "selectedIconPath": "images/shareSelected.png"
       },

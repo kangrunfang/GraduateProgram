@@ -1,0 +1,100 @@
+<!--pages/note/note.wxml-->
+<view class="container">
+  <view class="backPic">
+    <image class='pic' src='/images/notepic.jpg'></image>
+    <text class="topText">记一笔</text>
+  </view>
+  <view class="out">
+      <text class="outText">支出</text>
+      <view class="outIcon">
+        <image class='triPic' src='/images/triangel.png'></image>
+      </view>
+  </view>
+  <view class="in">
+      <text class="inText" bindtap='goIndex'>收入</text>
+  </view>
+  <view class="type">
+    <image class='typeLogo' src='/images/typeLogo.png'></image>
+    <text class="typeText">分类</text>
+  </view>
+  <view class="typeList">
+    <view class="first">
+      <view class="type1">
+       <view class="type1Logo">
+          <image class='typePic' src='/images/cloth.png'></image>
+       </view>
+       <text class="outText">服饰</text>
+      </view>
+      <view class="type2">
+       <view class="type2Logo">
+          <image class='typePic' src='/images/book.png'></image>
+       </view>
+       <text class="outText">图书</text>
+      </view>
+      <view class="type3">
+       <view class="type3Logo">
+          <image class='typePic' src='/images/movie.png'></image>
+       </view>
+       <text class="outText">电影</text>
+      </view>
+      <view class="type4">
+       <view class="type4Logo">
+          <image class='typePic' src='/images/makeUp.png'></image>
+       </view>
+       <text class="outText">护肤品</text>
+      </view>
+    </view>
+    <view class="second">
+      <view class="type5">
+       <view class="type5Logo">
+          <image class='typePic' src='/images/bus.png'></image>
+       </view>
+       <text class="outText">交通</text>
+      </view>
+      <view class="type6">
+       <view class="type6Logo">
+          <image class='typePic' src='/images/doctor.png'></image>
+       </view>
+       <text class="outText">医疗</text>
+      </view>
+      <view class="type7">
+       <view class="type7Logo">
+          <image class='typePic' src='/images/excersize.png'></image>
+       </view>
+       <text class="outText">健身</text>
+      </view>
+      <view class="type8">
+       <view class="type8Logo">
+          <image class='typePic' src='/images/phone.png'></image>
+       </view>
+       <text class="outText">通讯</text>
+      </view>
+    </view>
+    <view class="third">
+      <view class="type9">
+       <view class="type9Logo">
+          <image class='typePic' src='/images/food.png'></image>
+       </view>
+       <text class="outText">食材</text>
+      </view>
+      <view class="type10">
+       <view class="type10Logo">
+          <image class='typePic' src='/images/travel.png'></image>
+       </view>
+       <text class="outText">旅游</text>
+      </view>
+      <view class="type11">
+       <view class="type11Logo">
+          <image class='typePic' src='/images/house.png'></image>
+       </view>
+       <text class="outText">家居</text>
+      </view>
+      <view class="type12">
+       <view class="type12Logo">
+          <image class='typePic' src='/images/others.png'></image>
+       </view>
+       <text class="outText">其他</text>
+      </view>
+    </view>
+  </view>
+</view>

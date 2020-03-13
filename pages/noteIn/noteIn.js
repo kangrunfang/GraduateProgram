@@ -1,4 +1,4 @@
-// pages/community/community.js
+// pages/noteIn/noteIn.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  goIndex: function () {
-    wx.navigateTo({
-      url: '/pages/send/send',
-    })
   }
 })

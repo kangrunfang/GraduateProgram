@@ -1,2 +1,78 @@
 <!--pages/community/community.wxml-->
-<text>社区分享页面</text>
+<view class="container">
+  <view class="backPic">
+    <image class='pic' src='/images/shareBack1.png'></image>
+  </view>
+  <view class="first">
+    <view class="first1">
+      <view class="head">
+        <image class='headPic' src='/images/headPic1.png'></image>
+      </view>
+      <view class="nick">
+        <text>小莉</text>
+      </view>
+      <view class="care">
+        <button class='btn'>关注</button>
+      </view>
+    </view>
+    <view class="first2">
+      <text class="message">
+        疫情期间拿工资真难。有存款是多么重要的事！还好自己平时有存钱的习惯，原来有些安全感真的只有钱才能带来。
+      </text>
+    </view>
+    <view class="first3">
+      <image class='messagePic1' src='/images/messagePic1.png'></image>
+    </view>
+  </view>
+  
+
+
+
+  <view class="second">
+    <view class="second1">
+      <view class="head">
+        <image class='headPic' src='/images/headPic2.png'></image>
+      </view>
+      <view class="nick">
+        <text>Money管家</text>
+      </view>
+      <view class="care">
+        <button class='btn'>关注</button>
+      </view>
+    </view>
+    <view class="second2">
+      <text class="message">
+        有经验的姐妹们来提提建议，我要不要坚持买房？现在情况是我手里有存款十八万元，正纠结要不要贷款在市区二环买房还是先租房。
+      </text>
+    </view>
+    <view class="second3">
+      <image class='messagePic2' src='/images/messagePic2.png'></image>
+    </view>
+  </view>
+
+
+  <view class="third">
+    <view class="third1">
+      <view class="head">
+        <image class='headPic' src='/images/headPic3.png'></image>
+      </view>
+      <view class="nick">
+        <text>七七羽签</text>
+      </view>
+      <view class="care">
+        <button class='btn'>关注</button>
+      </view>
+    </view>
+    <view class="third2">
+      <text class="message">
+        15年毕业，18年9月进入现在的公司。17年5月开始月薪过万，首付10万在武汉买了小公寓。受疫情影响业绩下降，压力很大。
+      </text>
+    </view>
+    <view class="third3">
+      <image class='messagePic3' src='/images/messagePic3.png'></image>
+    </view>
+  </view>
+  <view class="send">
+        <text class='btn' bindtap='goIndex'>发帖</text>
+  </view>
+</view>

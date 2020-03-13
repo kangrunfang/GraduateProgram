@@ -1,0 +1,88 @@
+<!--pages/noteIn/noteIn.wxml-->
+<view class="container">
+  <view class="backPic">
+    <image class='pic' src='/images/notepic.jpg'></image>
+    <text class="topText">记一笔</text>
+  </view>
+  <view class="out">
+      <text class="outText">支出</text>
+  </view>
+  <view class="in">
+      <text class="inText">收入</text>
+      <view class="outIcon">
+        <image class='triPic' src='/images/triangel.png'></image>
+      </view>
+  </view>
+  <view class="type">
+    <image class='typeLogo' src='/images/typeLogo.png'></image>
+    <text class="typeText">分类</text>
+  </view>
+  <view class="typeList">
+    <view class="first">
+      <view class="type1">
+       <view class="type1Logo">
+          <image class='typePic' src='/images/salary.png'></image>
+       </view>
+       <text class="outText">工资</text>
+      </view>
+      <view class="type2">
+       <view class="type2Logo">
+          <image class='typePic' src='/images/baoXiao.png'></image>
+       </view>
+       <text class="outText">报效</text>
+      </view>
+      <view class="type3">
+       <view class="type3Logo">
+          <image class='typePic' src='/images/daiKuan.png'></image>
+       </view>
+       <text class="outText">贷款</text>
+      </view>
+      <view class="type4">
+       <view class="type4Logo">
+          <image class='typePic' src='/images/hongBao.png'></image>
+       </view>
+       <text class="outText">红包</text>
+      </view>
+    </view>
+    <view class="second">
+      <view class="type5">
+       <view class="type5Logo">
+          <image class='typePic' src='/images/partTime.png'></image>
+       </view>
+       <text class="outText">兼职</text>
+      </view>
+      <view class="type6">
+       <view class="type6Logo">
+          <image class='typePic' src='/images/win.png'></image>
+       </view>
+       <text class="outText">奖金</text>
+      </view>
+      <view class="type7">
+       <view class="type7Logo">
+          <image class='typePic' src='/images/touZi.png'></image>
+       </view>
+       <text class="outText">投资</text>
+      </view>
+      <view class="type8">
+       <view class="type8Logo">
+          <image class='typePic' src='/images/liJin.png'></image>
+       </view>
+       <text class="outText">礼金</text>
+      </view>
+    </view>
+    <view class="third">
+      <view class="type9">
+       <view class="type9Logo">
+          <image class='typePic' src='/images/buZhu.png'></image>
+       </view>
+       <text class="outText">补助</text>
+      </view>
+      <view class="type10">
+       <view class="type10Logo">
+          <image class='typePic' src='/images/others.png'></image>
+       </view>
+       <text class="outText">其他</text>
+      </view>
+    </view>
+  </view>
+</view>
