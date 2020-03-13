@@ -1,4 +1,21 @@
 <!--pages/login/login.wxml-->
 <view class="container">
-  
+  <image class='pic' src='/images/logo2.png'></image>
+  <view class="appliText">
+    <text class="title">收支日记</text>
+    <text>申请访问
+    您的微信头像、昵称等信息</text>
+  </view>
+  <view class="btn">
+    <view class="agree">
+      <text>同意</text>
+    </view>
+    <view class="disagree">
+      <text type="default" bindtap="showModal">拒绝</text>
+      <view>
+        <modal hidden="{{modalHidden}}" confirm-text="确定" cancel-text="取消"              bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">登录失败,请稍后重试。</modal>
+      </view>
+
+    </view>
+  </view>
 </view>

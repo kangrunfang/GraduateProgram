@@ -1,2 +1,50 @@
-<!--pages/mine/mine.wxml-->
-<text>"我的"个人中心页面</text>
+<view class="container">
+  <view class="top">
+    <view class="top1">
+      <view class="head">
+        <image class='pichead' src='/images/picHead.png'></image>
+      </view>
+      <view class="loginBtn">
+        <text class="loginText" bindtap='goIndex'>请登录</text>
+      </view>
+      <view class="signBtn">
+        <text class="signText" type="default" bindtap="showModal">打卡</text>
+        <view>
+          <modal hidden="{{modalHidden}}" confirm-text="OK" cancel-text="取消"              bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">打卡成功，继续坚持哦~</modal>
+        </view>
+
+      </view>
+    </view>
+    <view class="top2">
+      <view class="care">
+        <view class="careNum">0</view>
+        <text class="careText">我的关注</text>
+      </view>
+      <view class="note">
+        <view class="noteNum">0</view>
+        <text class="noteText">记账总笔数</text>
+      </view>
+      <view class="sig">
+        <view class="sigNum">0</view>
+        <text class="sigText">已连续打卡</text>
+      </view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="news">
+      <image class='mesLogo' src='/images/news.png'></image>
+      <text class="newWords">我的资讯</text>
+      <image class='triangle' src='/images/tri.png' bindtap='goIndex1'></image>
+    </view>
+    <view class="message">
+      <image class='mesLogo' src='/images/shezhi.png'></image>
+      <text class="mesWords">我的设置</text>
+      <image class='triangle' src='/images/tri.png'></image>
+    </view>
+    <view class="we">
+      <image class='mesLogo' src='/images/about.png'></image>
+      <text class="weWords">关于我们</text>
+      <image class='triangle' src='/images/tri.png' bindtap='goIndex2'></image>
+    </view>
+  </view>
+</view>

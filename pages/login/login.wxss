@@ -9,3 +9,45 @@ page{
   height:100%;
   text-align: center;
 }
+.pic{
+  height:80px;
+  width:70px;
+  position:relative;
+  top:-10px;
+}
+.appliText{
+  position:relative;
+  top:-200px;
+  left:10px;
+  text-align: left;
+}
+.title{
+  color:#FFA54F;
+}
+.btn{
+  width:150px;
+  height:130px;
+  /*background-color: pink;*/
+  position:absolute;
+  top:250px;
+}
+.agree{
+  width:120px;
+  height:40px;
+  background-color: green;
+  position:relative;
+  top:10px;
+  left:10px;
+  border-radius: 1.5em;
+  line-height:40px;
+}
+.disagree{
+  width:120px;
+  height:40px;
+  background-color: #dbdbdb;
+  position:relative;
+  top:30px;
+  left:10px;
+  border-radius: 1.5em;
+  line-height:40px;
+}

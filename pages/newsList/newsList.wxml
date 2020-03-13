@@ -1,0 +1,14 @@
+<!--pages/newsList/newsList.wxml-->
+<view class="container">
+  <view class="top">
+    <text>消息</text>
+  </view>
+  <view class="message1">
+      <image class='mesLogo' src='/images/mesLogo.png'></image>
+      <text class="mesWords1">系统消息</text>
+      <image class='triangle' src='/images/tri1.png' type="default" bindtap="showModal"></image>
+      <view>
+        <modal hidden="{{modalHidden}}" confirm-text="OK" cancel-text="取消"              bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">昨天你忘记打卡啦，日记小管家提醒您要养成记账打卡的好习惯哟~</modal>
+      </view>
+  </view>
+</view>

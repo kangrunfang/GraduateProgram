@@ -1,4 +1,3 @@
-// pages/mine/mine.js
 Page({
 
   data: {
@@ -51,22 +50,6 @@ Page({
 
     })
 
-  },
-
-  goIndex: function () {
-    wx.navigateTo({
-      url: '/pages/login/login',
-    })
-  },
-  goIndex1: function () {
-    wx.navigateTo({
-      url: '/pages/newsList/newsList',
-    })
-  },
-  goIndex2: function () {
-    wx.navigateTo({
-      url: '/pages/about/about',
-    })
   }
 
 })

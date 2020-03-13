@@ -9,7 +9,9 @@
     "pages/cal/cal",
     "pages/noteIn/noteIn",
     "pages/send/send",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/newsList/newsList",
+    "pages/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
