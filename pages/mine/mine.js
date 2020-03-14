@@ -67,6 +67,11 @@ Page({
     wx.navigateTo({
       url: '/pages/about/about',
     })
+  },
+  goIndex3: function () {
+    wx.navigateTo({
+      url: '/pages/set/set',
+    })
   }
 
 })

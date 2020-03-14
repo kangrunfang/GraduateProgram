@@ -1,7 +1,7 @@
 <!--pages/newsList/newsList.wxml-->
 <view class="container">
   <view class="top">
-    <text>消息</text>
+    <text>资讯</text>
   </view>
   <view class="message1">
       <image class='mesLogo' src='/images/mesLogo.png'></image>

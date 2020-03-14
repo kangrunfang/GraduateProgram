@@ -11,7 +11,10 @@
     "pages/send/send",
     "pages/login/login",
     "pages/newsList/newsList",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/serveText/serveText",
+    "pages/set/set",
+    "pages/writeAdvice/writeAdvice"
   ],
   "window": {
     "backgroundTextStyle": "light",

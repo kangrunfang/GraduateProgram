@@ -1,4 +1,4 @@
-// pages/about/about.js
+// pages/serveText/serveText.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  goIndex: function () {
-    wx.navigateTo({
-      url: '/pages/serveText/serveText',
-    })
   }
 })

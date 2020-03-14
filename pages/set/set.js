@@ -1,11 +1,14 @@
-// pages/about/about.js
+// pages/set/set.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    mHidden:true,
+    select: false,
 
+    tihuoWay: '1天',
   },
 
   /**
@@ -64,9 +67,35 @@ Page({
 
   },
 
+  changeTap:function(e){
+    console.log(e.detail.value);
+  },
+
+  bindShowMsg() {
+
+    this.setData({
+
+      select: !this.data.select
+
+    })
+
+  },
+  mySelect(e) {
+
+    var name = e.currentTarget.dataset.name
+
+    this.setData({
+
+      tihuoWay: name,
+
+      select: false
+
+    })
+  },
   goIndex: function () {
     wx.navigateTo({
-      url: '/pages/serveText/serveText',
+      url: '/pages/writeAdvice/writeAdvice',
     })
   }
+
 })

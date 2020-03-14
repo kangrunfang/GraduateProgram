@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="top">
+    <text class="title">意见反馈</text>
+  </view>
+  <view class="center">
+      <textarea placeholder="您可以输入问题或建议，我们收到后会及时处理哦~" focus="{{focus}}" class="input"/>
+      <text class="send" type="default" bindtap="showModal">发送</text>
+      <view>
+        <modal hidden="{{modalHidden}}" confirm-text="OK" cancel-text="取消"              bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">谢谢您的建议与反馈，我们会尽快处理并给您答复</modal>
+      </view>
+  </view>
+</view>

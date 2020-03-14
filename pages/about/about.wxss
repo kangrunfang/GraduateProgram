@@ -1,1 +1,71 @@
 /* pages/about/about.wxss */
+page{
+    width:100%;
+    height:100%;
+    overflow: auto;
+}
+.container{
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.top{
+  width:100%;
+  height:30px;
+  position:absolute;
+  top:-1px;
+  background-color: #FFA54F;
+  text-align: center;
+  line-height:20px;
+}
+.bottom{
+  width:100%;
+  height:480px;
+  /*background-color: pink;*/
+  position:absolute;
+  top:28px;
+}
+.pic{
+  height:60px;
+  width:50px;
+  position:relative;
+  top:10px;
+}
+.title{
+  color:#FFA54F;
+  position:relative;
+  top:10px;
+  font-size: 18px;
+}
+.words{
+  text-align: left;
+  width:80%;
+  height:340px;
+  /*background-color: blueviolet;*/
+  position:absolute;
+  left:40px;
+  top:100px;
+  font-size: 14px;
+}
+.question{
+  width:60%;
+  height:30px;
+  position:absolute;
+  left:60px;
+  bottom:15px;
+  font-size: 12px;
+  color:#A9A9A9;
+}
+.left{
+  float:left;
+  position:relative;
+  left:5px;
+  top:15px;
+}
+.right{
+  float:left;
+  position:relative;
+  left:10px;
+  top:15px;
+  color:#FFA54F;
+}

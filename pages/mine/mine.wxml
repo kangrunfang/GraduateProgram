@@ -39,7 +39,7 @@
     <view class="message">
       <image class='mesLogo' src='/images/shezhi.png'></image>
       <text class="mesWords">我的设置</text>
-      <image class='triangle' src='/images/tri.png'></image>
+      <image class='triangle' src='/images/tri.png' bindtap='goIndex3'></image>
     </view>
     <view class="we">
       <image class='mesLogo' src='/images/about.png'></image>

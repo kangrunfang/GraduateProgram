@@ -1,2 +1,21 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<view class="container">
+  <view class="top">
+    <text>关于我们</text>
+  </view>
+  <view class="bottom">
+    <image class='pic' src='/images/logo2.png'></image>
+    <view><text class="title">收支日记</text></view>
+    <view class="words">
+      <text>
+        “悦”生活，“勤”记账！
+          欢迎使用“收支日记”记账平台，不管您是在校学生还是上班族，相信很多朋友都想要一个操作简单的记账平台来进行自我资产的记录与管理。收支日记是一个不错的选择，其界面简洁，操作方便，打破传统的理财界面。
+          UI设计时尚清新，同时有多种收支类别供您选择。不管您身处何处，都可以实现快速的账单记录，想要查看历史账单详情，只需进入明细页面，以往的支出与收入情况一目了然。更有其他用户对于日常记录与理财的生活分享，帮助您树立合理的理财观念与习惯。我们不做简单的数据搬运工，只致力于为您的收支管理提供贴心服务！
+      </text>
+    </view>
+    <view class="question">
+      <view class="left"><text>如有其他疑问请参考:</text></view>
+      <view class="right" bindtap='goIndex'><text>用户协议</text></view>
+    </view>
+  </view>
+</view>

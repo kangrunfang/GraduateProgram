@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="top">
+    <text>设置</text>
+  </view>
+  <view class="bottom">
+    <view class="set1">
+      <image class='mesLogo' src='/images/detailWords.png'></image>
+      <text class="mesWords">明细详情</text>
+      <switch bindchange='changeTap' class="turn"></switch>
+    </view>
+    <view class="set2">
+      <image class='mesLogo' src='/images/exit.png'></image>
+      <text class="mesWords">通知栏快捷入口</text>
+      <switch bindchange='changeTap' class="turn"></switch>
+    </view>
+    <view class="set3">
+      <image class='mesLogo' src='/images/excuse.png'></image>
+      <text class="mesWords">记账提醒</text>
+      <switch bindchange='changeTap' class="turn"></switch>
+    </view>
+    <view class="set4">
+      <image class='mesLogo' src='/images/date.png'></image>
+      <text class="mesWords">设置记账周期</text>
+      <view class="list-msg">
+        <!--下拉框-->
+        <view class="list-msg2" bindtap="bindShowMsg">
+          <text>{{tihuoWay}}</text>
+          <image style="height:31rpx;width:31rpx;" src="/images/downTri.png"></image>
+        </view>
+        <!--下拉需要显示的列表-->
+        <view class="select_box" wx:if="{{select}}">
+          <scroll-view scroll-y="true" style="height:300rpx">
+            <view class="select_one" bindtap="mySelect" data-name="1天">1天</view>
+            <view class="select_one" bindtap="mySelect" data-name="2天">2天</view>
+            <view class="select_one" bindtap="mySelect" data-name="3天">3天</view>
+            <view class="select_one" bindtap="mySelect" data-name="5天">5天</view>
+            <view class="select_one" bindtap="mySelect" data-name="7天">7天</view>
+            <view class="select_one" bindtap="mySelect" data-name="30天">30天</view>
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+    <view class="set5">
+      <image class='mesLogo' src='/images/advice.png'></image>
+      <text class="mesWords">意见反馈</text>
+      <image class='triangle' src='/images/tri1.png' bindtap='goIndex'></image>
+    </view>
+  </view>
+</view>
